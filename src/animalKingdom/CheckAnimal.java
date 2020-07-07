@@ -1,5 +1,5 @@
 package animalKingdom;
 
-public class CheckAnimal {
-    
+public interface CheckAnimal {
+    boolean test(Animals a);
 }
